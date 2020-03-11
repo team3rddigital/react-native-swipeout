@@ -180,7 +180,7 @@ var Swipeout = (0, _createReactClass2.default)({
     });
   },
 
-  componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps: function UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.close) this._close();
     if (nextProps.openRight) this._openRight();
     if (nextProps.openLeft) this._openLeft();
